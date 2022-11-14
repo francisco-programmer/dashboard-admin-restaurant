@@ -97,7 +97,7 @@ const Tickets = () => {
                   <Disclosure>
                     <Disclosure.Button className="py-2 text-sm md:text-lg flex md:items-center justify-between gap-4">
                       <RiArrowRightSLine className="text-sm md:text-xl ui-open:rotate-90 ui-open:text-sky-500 ui-open:transform transition-all" />{" "}
-                      Administracion{" "}
+                      Inventario{" "}
                       <span className="hidden lg:block bg-secondary-900 text-white text-sm py.0.5 px-2 rounded-lg">
                         Click
                       </span>
@@ -121,7 +121,7 @@ const Tickets = () => {
                   <Disclosure>
                     <Disclosure.Button className="py-2 text-sm md:text-lg flex items-center justify-between gap-4">
                       <RiArrowRightSLine className="text-xl ui-open:rotate-90 ui-open:text-sky-500 ui-open:transform transition-all" />{" "}
-                      Administracion{" "}
+                      Cartera{" "}
                       <span className="hidden lg:block bg-secondary-900 text-white text-sm py.0.5 px-2 rounded-lg">
                         Click
                       </span>
@@ -145,7 +145,7 @@ const Tickets = () => {
                   <Disclosure>
                     <Disclosure.Button className="py-2 text-sm md:text-lg flex md:items-center justify-between gap-4">
                       <RiArrowRightSLine className="text-sm md:text-xl ui-open:rotate-90 ui-open:text-sky-500 ui-open:transform transition-all" />{" "}
-                      Administracion{" "}
+                      Nomina{" "}
                       <span className="hidden lg:block bg-secondary-900 text-white text-sm py.0.5 px-2 rounded-lg">
                         Click
                       </span>
@@ -169,7 +169,7 @@ const Tickets = () => {
                   <Disclosure>
                     <Disclosure.Button className="py-2 text-sm md:text-lg flex md:items-center justify-between gap-4">
                       <RiArrowRightSLine className="text-sm md:text-xl ui-open:rotate-90 ui-open:text-sky-500 ui-open:transform transition-all" />{" "}
-                      Administracion{" "}
+                      Pagos a Proveedores{" "}
                       <span className="hidden lg:block bg-secondary-900 text-white text-sm py.0.5 px-2 rounded-lg">
                         Click
                       </span>
@@ -197,7 +197,7 @@ const Tickets = () => {
                 <div className="flex items-center justify-between mb-8">
                   <h1 className="text-white text-xl md:text-2xl">FAQ</h1>
                   <Link to="/" className="flex items-center gap-2 text-sky-500">
-                    All FAQ <RiArrowRightLine />
+                    Preguntas <RiArrowRightLine />
                   </Link>
                 </div>
                 {/* Content card */}
@@ -229,9 +229,9 @@ const Tickets = () => {
                   <Disclosure>
                     <Disclosure.Button className="py-2 text-sm md:text-lg flex items-center justify-between gap-4">
                       <RiArrowRightSLine className="text-xl ui-open:rotate-90 ui-open:text-sky-500 ui-open:transform transition-all" />{" "}
-                      How to install on a local machine?{" "}
+                      Recomendaciones{" "}
                       <span className="hidden lg:block bg-secondary-900 text-white text-sm py.0.5 px-2 rounded-lg">
-                        Laravel
+                        Click
                       </span>
                     </Disclosure.Button>
                     <Transition
@@ -243,10 +243,9 @@ const Tickets = () => {
                       leaveTo="transform scale-95 opacity-0"
                     >
                       <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
-                        By Keenthemes to save tons and more to time money
-                        projects are listed and outstanding{" "}
+                        Se tendran en cuenta todas la recomendaciones de los clientes {" "}
                         <Link to="/" className="text-sky-500">
-                          Learn more
+                          ver mas 
                         </Link>
                       </Disclosure.Panel>
                     </Transition>
@@ -254,9 +253,9 @@ const Tickets = () => {
                   <Disclosure>
                     <Disclosure.Button className="py-2 text-sm md:text-lg flex md:items-center justify-between gap-4">
                       <RiArrowRightSLine className="text-sm md:text-xl ui-open:rotate-90 ui-open:text-sky-500 ui-open:transform transition-all" />{" "}
-                      How Extended Licese works?{" "}
+                      Sugerencias {" "}
                       <span className="hidden lg:block bg-secondary-900 text-white text-sm py.0.5 px-2 rounded-lg">
-                        Next JS 13
+                        Click
                       </span>
                     </Disclosure.Button>
                     <Transition
@@ -268,10 +267,9 @@ const Tickets = () => {
                       leaveTo="transform scale-95 opacity-0"
                     >
                       <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
-                        By Keenthemes to save tons and more to time money
-                        projects are listed and outstanding{" "}
+                        Se tendra en cuenta todas las sugerencias de los clientes.{" "}
                         <Link to="/" className="text-sky-500">
-                          Learn more
+                        ver mas 
                         </Link>
                       </Disclosure.Panel>
                     </Transition>
@@ -279,9 +277,9 @@ const Tickets = () => {
                   <Disclosure>
                     <Disclosure.Button className="py-2 text-sm md:text-lg flex md:items-center justify-between gap-4">
                       <RiArrowRightSLine className="text-sm md:text-xl ui-open:rotate-90 ui-open:text-sky-500 ui-open:transform transition-all" />{" "}
-                      How can I import Google fonts?{" "}
+                      Oficinas{" "}
                       <span className="hidden lg:block bg-secondary-900 text-white text-sm py.0.5 px-2 rounded-lg">
-                        Vue JS
+                        Click
                       </span>
                     </Disclosure.Button>
                     <Transition
@@ -293,10 +291,9 @@ const Tickets = () => {
                       leaveTo="transform scale-95 opacity-0"
                     >
                       <Disclosure.Panel className="text-gray-500 text-sm px-8 py-2">
-                        By Keenthemes to save tons and more to time money
-                        projects are listed and outstanding{" "}
+                        Oficinas de todo el pais{" "}
                         <Link to="/" className="text-sky-500">
-                          Learn more
+                          Ver mas 
                         </Link>
                       </Disclosure.Panel>
                     </Transition>

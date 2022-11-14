@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import CardTicket from "../../components/CardTicket";
 import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
 import { Menu, MenuItem, MenuButton } from "@szhsin/react-menu";
+import { BsFillSunFill } from "react-icons/bs";
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/slide.css";
 import hamburguesa from '../../assets/hamburguesa.jpeg'
@@ -13,7 +14,7 @@ const Home = () => {
   return (
     <div>
       <div className="flex items-center justify-between mb-10">
-        <h1 className="text-4xl text-white">Buenos Dias, Francisco</h1>
+        <h1 className="text-4xl text-white">Buenos Dias  </h1><h1 className="text-4xl text-yellow-300"><BsFillSunFill /></h1>
         <div className="flex items-center gap-2 text-3xl">
           <RiArrowLeftSLine className="hover:cursor-pointer hover:text-white transition-colors" />
           <RiArrowRightSLine className="hover:cursor-pointer hover:text-white transition-colors" />

@@ -14,7 +14,7 @@ const Register = () => {
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="bg-secondary-100 p-8 rounded-xl shadow-2xl w-auto lg:w-[450px]">
         <h1 className="text-3xl text-center uppercase font-bold tracking-[5px] text-white mb-8">
-          Crear <span className="text-primary">cuenta</span>
+          Crear <span className="text-sky-500">cuenta</span>
         </h1>
         <form className="mb-8">
           <button className="flex items-center justify-center py-3 px-4 gap-4 bg-secondary-900 w-full rounded-full mb-8 text-gray-100">
@@ -25,7 +25,7 @@ const Register = () => {
             Registrate con google
           </button>
           <div className="relative mb-4">
-            <RiUserLine className="absolute top-1/2 -translate-y-1/2 left-2 text-primary" />
+            <RiUserLine className="absolute top-1/2 -translate-y-1/2 left-2 text-sky-500" />
             <input
               type="text"
               className="py-3 pl-8 pr-4 bg-secondary-900 w-full outline-none rounded-lg"
@@ -33,7 +33,7 @@ const Register = () => {
             />
           </div>
           <div className="relative mb-4">
-            <RiUserLine className="absolute top-1/2 -translate-y-1/2 left-2 text-primary" />
+            <RiUserLine className="absolute top-1/2 -translate-y-1/2 left-2 text-sky-500" />
             <input
               type="text"
               className="py-3 pl-8 pr-4 bg-secondary-900 w-full outline-none rounded-lg"
@@ -41,7 +41,7 @@ const Register = () => {
             />
           </div>
           <div className="relative mb-4">
-            <RiMailLine className="absolute top-1/2 -translate-y-1/2 left-2 text-primary" />
+            <RiMailLine className="absolute top-1/2 -translate-y-1/2 left-2 text-sky-500" />
             <input
               type="email"
               className="py-3 pl-8 pr-4 bg-secondary-900 w-full outline-none rounded-lg"
@@ -49,7 +49,7 @@ const Register = () => {
             />
           </div>
           <div className="relative mb-4">
-            <RiLockLine className="absolute top-1/2 -translate-y-1/2 left-2 text-primary" />
+            <RiLockLine className="absolute top-1/2 -translate-y-1/2 left-2 text-sky-500" />
             <input
               type={showPassword ? "text" : "password"}
               className="py-3 px-8 bg-secondary-900 w-full outline-none rounded-lg"
@@ -58,17 +58,17 @@ const Register = () => {
             {showPassword ? (
               <RiEyeOffLine
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute top-1/2 -translate-y-1/2 right-2 hover:cursor-pointer text-primary"
+                className="absolute top-1/2 -translate-y-1/2 right-2 hover:cursor-pointer text-sky-500"
               />
             ) : (
               <RiEyeLine
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute top-1/2 -translate-y-1/2 right-2 hover:cursor-pointer text-primary"
+                className="absolute top-1/2 -translate-y-1/2 right-2 hover:cursor-pointer text-sky-500"
               />
             )}
           </div>
           <div className="relative mb-8">
-            <RiLockLine className="absolute top-1/2 -translate-y-1/2 left-2 text-primary" />
+            <RiLockLine className="absolute top-1/2 -translate-y-1/2 left-2 text-sky-500" />
             <input
               type={showPassword ? "text" : "password"}
               className="py-3 px-8 bg-secondary-900 w-full outline-none rounded-lg"
@@ -77,19 +77,19 @@ const Register = () => {
             {showPassword ? (
               <RiEyeOffLine
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute top-1/2 -translate-y-1/2 right-2 hover:cursor-pointer text-primary"
+                className="absolute top-1/2 -translate-y-1/2 right-2 hover:cursor-pointer text-sky-500"
               />
             ) : (
               <RiEyeLine
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute top-1/2 -translate-y-1/2 right-2 hover:cursor-pointer text-primary"
+                className="absolute top-1/2 -translate-y-1/2 right-2 hover:cursor-pointer text-sky-500"
               />
             )}
           </div>
           <div>
             <button
               type="submit"
-              className="bg-primary text-black uppercase font-bold text-sm w-full py-3 px-4 rounded-lg"
+              className="bg-sky-500 text-black uppercase font-bold text-sm w-full py-3 px-4 rounded-lg"
             >
               Registrarme
             </button>
@@ -99,7 +99,7 @@ const Register = () => {
           ¿Ya tienes cuenta?{" "}
           <Link
             to="/login"
-            className="text-primary hover:text-gray-100 transition-colors"
+            className="text-sky-500 hover:text-gray-100 transition-colors"
           >
             Ingresa
           </Link>

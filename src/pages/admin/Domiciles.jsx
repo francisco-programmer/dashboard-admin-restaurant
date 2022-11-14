@@ -39,7 +39,7 @@ const Domiciles = () => {
                   }}
                   type="text"
                   className="w-full py-2 px-4 outline-none rounded-lg bg-secondary-900"
-                  placeholder="Nombres"
+                  placeholder="Nombres" maxLength={20}
                 />
               </div>
             </div>
@@ -57,7 +57,7 @@ const Domiciles = () => {
                 }}
                 type="text"
                 className="w-full py-2 px-4 outline-none rounded-lg bg-secondary-900"
-                placeholder="Plato"
+                placeholder="Plato" maxLength={20}
               />
             </div>
           </div>
@@ -74,7 +74,7 @@ const Domiciles = () => {
                 }}
                 type="text"
                 className="w-full py-2 px-4 outline-none rounded-lg bg-secondary-900"
-                placeholder="+573015984814"
+                placeholder="+573015984814" maxLength={20}
               />
             </div>
           </div>
@@ -91,7 +91,7 @@ const Domiciles = () => {
                 }}
                 type="text"
                 className="w-full py-2 px-4 outline-none rounded-lg bg-secondary-900"
-                placeholder="Frandev.tech"
+                placeholder="Frandev.tech" maxLength={20} required
               />
             </div>
           </div>
